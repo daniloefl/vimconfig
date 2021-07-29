@@ -9,5 +9,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-
 source ~/.vimrc
+
+tnoremap <Esc> <C-\><C-n>
