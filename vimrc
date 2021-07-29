@@ -1,11 +1,3 @@
-call plug#begin('~/.local/share/nvim/plugged')
-
-Plug 'davidhalter/jedi-vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
-call plug#end()
-
 set ic
 set smartcase
 set gdefault
@@ -14,7 +6,7 @@ set mouse=a
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set softtabstop
+set softtabstop=1
 set showmatch
 set formatoptions+=o
 " Tell Vim which characters to show for expanded TABs,
