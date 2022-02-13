@@ -3,3 +3,5 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 
 In nvim do: ":PlugInstall"
 
+In nvim do: ":CocInstall coc-python coc-clang"
+(install coc for C/C++ and Python)
